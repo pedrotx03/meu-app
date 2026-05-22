@@ -6,7 +6,8 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import Favoritos from './pages/Favoritos';
 import Login from './pages/Login';
-import RotaProtegida from './routes/RotaProtegida'; // 1. Importando a Rota Protegida
+import DetalhesFilme from './pages/DetalhesFilme'; // 1. Importou a nova página
+import RotaProtegida from './routes/RotaProtegida';
 
 export default function App() {
   return (
@@ -18,9 +19,10 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
             
-            {/* 2. Criamos uma rota sem caminho (path) que serve de barreira */}
+            {/* 2. Rota dinâmica usando o :id */}
+            <Route path="/filme/:id" element={<DetalhesFilme />} />
+            
             <Route element={<RotaProtegida />}>
-              {/* Todas as rotas colocadas aqui dentro estarão protegidas! */}
               <Route path="/favoritos" element={<Favoritos />} />
             </Route>
           </Routes>

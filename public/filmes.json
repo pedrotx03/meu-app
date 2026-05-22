@@ -2,16 +2,25 @@
   {
     "id": 1,
     "titulo": "O Senhor dos Anéis",
-    "poster": "https://image.tmdb.org/t/p/w500/mUkNgVruCb4Q11iWW8hOIt4wW3.jpg"
+    "poster": "https://image.tmdb.org/t/p/w500/mUkNgVruCb4Q11iWW8hOIt4wW3.jpg",
+    "sinopse": "Um jovem hobbit recebe a missão de destruir um anel maligno.",
+    "diretor": "Peter Jackson",
+    "elenco": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"]
   },
   {
     "id": 2,
     "titulo": "Matrix",
-    "poster": "https://image.tmdb.org/t/p/w500/q2iM0zK3gA72NUXfDk4l31Z1Axb.jpg"
+    "poster": "https://image.tmdb.org/t/p/w500/q2iM0zK3gA72NUXfDk4l31Z1Axb.jpg",
+    "sinopse": "Um hacker descobre a verdadeira natureza da sua realidade.",
+    "diretor": "Lana e Lilly Wachowski",
+    "elenco": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"]
   },
   {
     "id": 3,
     "titulo": "De Volta para o Futuro",
-    "poster": "https://image.tmdb.org/t/p/w500/7lwBEM80wXk4v2K4U7F8T2I8g0Y.jpg"
+    "poster": "https://image.tmdb.org/t/p/w500/7lwBEM80wXk4v2K4U7F8T2I8g0Y.jpg",
+    "sinopse": "Um adolescente viaja no tempo usando um carro modificado.",
+    "diretor": "Robert Zemeckis",
+    "elenco": ["Michael J. Fox", "Christopher Lloyd", "Lea Thompson"]
   }
 ]
