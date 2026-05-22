@@ -1,0 +1,18 @@
+/* Reseta margens e define uma fonte mais bonita */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Deixa a troca de tema (claro/escuro) suave */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  min-height: 100vh;
+}
+
+/* Remove o sublinhado azul padrão dos links do React Router */
+a {
+  text-decoration: none;
+}
